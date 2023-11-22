@@ -9,17 +9,17 @@ Welcome to the Azure Automation Scripts repository! This collection of scripts i
 This repository contains scripts categorized into the following areas:
 
 - #### Infrastructure as Code (IaC):
-ARM templates for provisioning Azure resources.
-Terraform scripts for infrastructure provisioning and management.
+- [x] Templates for provisioning Azure resources.
+- [ ] Scripts for infrastructure provisioning and management.
 - #### Networking:
-Scripts for creating and managing virtual networks.
-Automation for configuring network security groups.
+- [x] Scripts for creating and managing virtual networks.
+- [x] Automation for configuring network security groups.
 - #### Resource Management:
-Automation for scaling resources based on demand.
-Scripted solutions for resource tagging and organization.
+- [ ] Automation for scaling resources based on demand.
+- [ ] Scripted solutions for resource tagging and organization.
 - #### Monitoring and Logging:
-Scripts for setting up Azure Monitor and logging solutions.
-Automation for alerting and response.
+- [ ] Scripts for setting up Azure Monitor and logging solutions.
+- [ ] Automation for alerting and response.
 
 
 ## Prerequisites
