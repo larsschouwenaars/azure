@@ -1,4 +1,4 @@
-# Azure Automation Scripts Repository
+# Azure auomation scripts repository
 
 ## Overview
 
