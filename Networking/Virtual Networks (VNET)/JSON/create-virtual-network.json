@@ -1,0 +1,22 @@
+{
+    "SubscriptionId": "",
+    "TenantId": "",
+    "Environment": "p",
+    "SolutionName": "net", 
+    "regions": [
+        {
+            "name": "we",
+            "jsonDataPaths": [
+                "Networking/Virtual Networks (VNET)/JSON/create-virtual-network.we.config.json"
+            ],
+            "deployVNET": true
+        },
+        {
+            "name": "eus",
+            "jsonDataPaths": [
+                "Networking/Virtual Networks (VNET)/JSON/create-virtual-network.eus.config.json"
+            ],
+            "deployVNET": true
+        }
+    ]
+}

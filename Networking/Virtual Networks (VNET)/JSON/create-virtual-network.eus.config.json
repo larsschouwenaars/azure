@@ -1,0 +1,17 @@
+{
+    "ResourceGroupName": "",
+    "VirtualNetworkName": "",
+    "AddressSpace": "10.101.0.0/16",
+    "Location": "East US",
+    "DnsServer": "8.8.8.8",
+    "Subnets": [
+        {"Name": "we-snet-p-ss01-be", "AddressPrefix": "10.101.1.0/24"},
+        {"Name": "we-snet-p-ss01-me", "AddressPrefix": "10.101.2.0/24"},
+        {"Name": "we-snet-p-ss01-fe", "AddressPrefix": "10.101.3.0/24"},
+        {"Name": "we-snet-p-ss01-dmz", "AddressPrefix": "10.101.4.0/26"}
+    ],
+    "Tags": {
+        "Location": "eus",
+        "Category": "network"
+    }
+}
