@@ -1,0 +1,52 @@
+[
+    {
+        "AssignRoleAD": false,
+        "AssignRoleIAM": false,
+        "CreateGroup": true,
+        "deleteAssignment": false,
+        "RoleRBAC": "Contributor"
+    },
+    {
+        "AssignRoleAD": true,
+        "AssignRoleIAM": true,
+        "CreateGroup": true,
+        "deleteAssignment": false,
+        "RoleRBAC": "Owner"
+    },
+    {
+        "AssignRoleAD": false,
+        "AssignRoleIAM": true,
+        "CreateGroup": true,
+        "deleteGroup": false,
+        "deleteAssignment": true,
+        "RoleRBAC": "Reader"
+    },
+    {
+        "AssignRoleAD": false,
+        "AssignRoleIAM": true,
+        "CreateGroup": true,
+        "deleteAssignment": false,
+        "RoleRBAC": "Security Admin"
+    },
+    {
+        "AssignRoleAD": false,
+        "AssignRoleIAM": true,
+        "CreateGroup": true,
+        "deleteAssignment": false,
+        "RoleRBAC": "Security Reader"
+    },
+    {
+        "AssignRoleAD": false,
+        "AssignRoleIAM": true,
+        "CreateGroup": true,
+        "deleteAssignment": false,
+        "RoleRBAC": "Support Request Contributor"
+    },
+    {
+        "AssignRoleAD": false,
+        "AssignRoleIAM": true,
+        "CreateGroup": true,
+        "deleteAssignment": false,
+        "RoleRBAC": "User Access Administrator"
+    }
+  ]

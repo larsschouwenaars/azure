@@ -1,0 +1,8 @@
+{
+    "tenantId": "",
+    "subscriptionId": "",
+    "jsonDataPaths": [
+        "Infrastructure as Code (IaC)/Security Groups/JSON/create-security-groups.default-roles.json",
+        "Infrastructure as Code (IaC)/Security Groups/JSON/create-security-groups.additional-roles.json"
+    ]
+  }

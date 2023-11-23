@@ -1,0 +1,103 @@
+[
+  {
+    "comment": "Create Key Vault Officer Security Group that is assigned to multiple roles",
+    "AssignRoleAD": false,
+    "AssignRoleIAM": false,
+    "CreateGroup": true,
+    "customName": "Key Vault Officer",
+    "multipleRole": true,
+    "deleteAssignment": false,
+    "RolesToAssign": ["Key Vault Certificates Officer", "Key Vault Crypto Officer",  "Key Vault Secrets Officer"]
+  },
+  {
+    "AssignRoleAD": false,
+    "AssignRoleIAM": true,
+    "CreateGroup": false,
+    "deleteAssignment": false,
+    "RoleRBAC": "Access Review Operator Service Role"
+  },
+  {
+    "AssignRoleAD": false,
+    "AssignRoleIAM": true,
+    "CreateGroup": false,
+    "deleteAssignment": false,
+    "RoleRBAC": "Key Vault Administrator"
+  },
+  {
+    "AssignRoleAD": false,
+    "AssignRoleIAM": true,
+    "CreateGroup": false,
+    "deleteAssignment": false,
+    "RoleRBAC": "Key Vault Contributor"
+  },
+  {
+    "AssignRoleAD": false,
+    "AssignRoleIAM": true,
+    "CreateGroup": false,
+    "deleteAssignment": false,
+    "RoleRBAC": "Key Vault Reader"
+  },
+  {
+    "AssignRoleAD": false,
+    "AssignRoleIAM": true,
+    "CreateGroup": false,
+    "deleteAssignment": false,
+    "RoleRBAC": "Key Vault User"
+  },
+  {
+    "AssignRoleAD": false,
+    "AssignRoleIAM": true,
+    "CreateGroup": false,
+    "deleteAssignment": false,
+    "RoleRBAC": "Role Based Access Control Administrator"
+  },
+  {
+    "AssignRoleAD": false,
+    "AssignRoleIAM": true,
+    "CreateGroup": false,
+    "deleteAssignment": false,
+    "RoleRBAC": "Storage Account Backup Contributor"
+  },
+  {
+    "AssignRoleAD": false,
+    "AssignRoleIAM": true,
+    "CreateGroup": false,
+    "deleteAssignment": false,
+    "RoleRBAC": "Storage Account Contributor"
+  },
+  {
+    "AssignRoleAD": false,
+    "AssignRoleIAM": true,
+    "CreateGroup": false,
+    "deleteAssignment": false,
+    "RoleRBAC": "Storage Account Key Operator Service Role"
+  },
+  {
+    "AssignRoleAD": false,
+    "AssignRoleIAM": true,
+    "CreateGroup": false,
+    "deleteAssignment": false,
+    "RoleRBAC": "Storage Blob Data Contributor"
+  },
+  {
+    "AssignRoleAD": false,
+    "AssignRoleIAM": true,
+    "CreateGroup": false,
+    "deleteAssignment": false,
+    "RoleRBAC": "Storage Blob Data Owner"
+  },
+  {
+    "AssignRoleAD": false,
+    "AssignRoleIAM": true,
+    "CreateGroup": false,
+    "deleteAssignment": false,
+    "RoleRBAC": "Storage Blob Data Reader"
+  },
+  {
+    "AssignRoleAD": false,
+    "AssignRoleIAM": true,
+    "CreateGroup": false,
+    "deleteAssignment": false,
+    "RoleRBAC": "Storage Blob Delegator"
+  }
+]
